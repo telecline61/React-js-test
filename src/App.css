@@ -1,0 +1,92 @@
+h1 {
+	margin-left: 15px;
+	margin-top:0;
+}
+.page-header {
+	margin: 30px 0;
+	padding: 0;
+	border: none;
+}
+.page-title {
+	margin: 0;
+	padding: 30px 0;
+}
+.sort-title {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.sort-section {
+	margin: 30px 0;
+	padding: 20px 0;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.data-wrap {
+	display: flex;
+	margin: 0 -15px 30px -15px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 30px;
+}
+.data-wrap .copy-section {
+	padding: 10px;
+	background: #eeeeee;
+}
+.data-wrap p {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.no-padding-left {
+	padding-left: 0 !important;
+}
+.modal-body {
+	padding: 0 !important
+}
+/* Quick Add Form Styles */
+.admin-quick-add {
+	background-color: #DDD;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.admin-quick-add input,
+.admin-quick-add textarea {
+	width: 100%;
+	border: none;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	box-sizing: border-box;
+}
+.qk-pst-edt {
+	position:fixed;
+	right: 0;
+	z-index: 99999;
+}
+#quick-add-button {
+	margin-bottom: 20px;
+}
+.modal-open .admin-quick-add.modal{
+ 	max-height: 300px;
+	overflow-y: hidden
+}
+
+@media (min-width: 768px){
+	#masthead .navbar>.container .navbar-brand,
+	#masthead .navbar>.container-fluid .navbar-brand {
+	    margin-left: 0;
+	}
+}
+@media (max-width: 768px){
+	.img-wrap {
+	    margin-bottom: 30px !important;
+	}
+	.data-wrap {
+		display: block;
+	}
+}
+@media (max-width: 991px){
+	 .sort-title {
+	    text-align: left;
+        margin-bottom: 10px;
+	}
+}
